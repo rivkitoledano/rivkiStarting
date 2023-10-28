@@ -1,0 +1,128 @@
+
+.game{
+   
+    position: fixed;
+    color:rgb(175, 224, 237);
+    font-size: 50px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 1px 1px 2px black, 0 0 20px blue, 0 0 5px darkblue;
+    text-align: center;
+    background-color: white;
+    width: 100%;
+    height: 100px;
+    top:0;
+}
+.container{
+    background-color: white;
+    margin-top: 0;
+}
+.list-nav{
+    display: flex;
+    list-style: none;
+    justify-content:space-around;
+   
+}
+.nav{
+    position: fixed;
+    background-color:  rgb(175, 224, 237);
+    top: 20%;
+    top: 100px;
+    width: 100%;
+    height: 70px;
+}
+.link-in-nav{
+    color:white;
+    text-decoration: none;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: relative;
+    font-size: 30px;
+}
+.list-in-list-nav{
+    display: none;
+    position: absolute;
+    list-style: none;
+    background-color: black;
+}
+.list-item-nav:hover .list-in-list-nav{
+    display: block;
+}
+.cardgame{
+    display: block;
+    background: #fff;
+    text-align: right;
+    text-decoration:none;
+    width:200px ; 
+    color: rgb(43, 97, 126); ;
+    padding: 20px;
+    margin: 30px 20px;
+    
+    border-radius: 5px;
+    margin-top: 190px;
+    box-shadow: 7px 7px 5px lightblue;
+}
+.stiky{
+    background-color: rgb(43, 97, 126); 
+    position: sticky;
+    top: 170px;
+    height: 50px;
+    padding: 5px;
+    text-align: center;
+    font-size: 30px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+} 
+.cardgame:hover{
+color:  rgb(97, 180, 201);
+}
+.img-game{
+    width:100% ; 
+}
+.cardcontain{
+    font-size: 15px;
+}
+.namegame{
+    font-size:30px;
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.pricegame{
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.order{
+    color: rgb(43, 97, 126); 
+    background-color:rgb(175, 224, 237);
+    text-align: center;
+    width: 100px;
+    height: 30px;
+    margin: auto;
+    padding: 10px 30px 10px 30px;
+    border-radius: 4px;
+}
+.order:hover{
+    border: 2px solid rgb(175, 224, 237); 
+    background-color:  white;
+    color: rgb(43, 97, 126); 
+}
+
+.box {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.card{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    top:200px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.music{
+    text-align: center;
+   margin:auto ;
+    border-radius: 15px;
+    border:rgb(241, 13, 135) 2px solid;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
+}
